@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AFAAF34230E3D9D001F3370 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFAAF33230E3D9D001F3370 /* AppDelegate.swift */; };
+		2AFAAF36230E3D9D001F3370 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFAAF35230E3D9D001F3370 /* ViewController.swift */; };
+		2AFAAF39230E3D9D001F3370 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AFAAF37230E3D9D001F3370 /* Main.storyboard */; };
+		2AFAAF3B230E3DA1001F3370 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AFAAF3A230E3DA1001F3370 /* Assets.xcassets */; };
+		2AFAAF3E230E3DA1001F3370 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AFAAF3C230E3DA1001F3370 /* LaunchScreen.storyboard */; };
+		2AFAAF49230E3DA2001F3370 /* ColabTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFAAF48230E3DA2001F3370 /* ColabTestTests.swift */; };
+		2AFAAF54230E3DA2001F3370 /* ColabTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFAAF53230E3DA2001F3370 /* ColabTestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2AFAAF45230E3DA2001F3370 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AFAAF28230E3D9D001F3370 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AFAAF2F230E3D9D001F3370;
+			remoteInfo = ColabTest;
+		};
+		2AFAAF50230E3DA2001F3370 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AFAAF28230E3D9D001F3370 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AFAAF2F230E3D9D001F3370;
+			remoteInfo = ColabTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2AFAAF30230E3D9D001F3370 /* ColabTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColabTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AFAAF33230E3D9D001F3370 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2AFAAF35230E3D9D001F3370 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2AFAAF38230E3D9D001F3370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2AFAAF3A230E3DA1001F3370 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AFAAF3D230E3DA1001F3370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2AFAAF3F230E3DA1001F3370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AFAAF44230E3DA2001F3370 /* ColabTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColabTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AFAAF48230E3DA2001F3370 /* ColabTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColabTestTests.swift; sourceTree = "<group>"; };
+		2AFAAF4A230E3DA2001F3370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AFAAF4F230E3DA2001F3370 /* ColabTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColabTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AFAAF53230E3DA2001F3370 /* ColabTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColabTestUITests.swift; sourceTree = "<group>"; };
+		2AFAAF55230E3DA2001F3370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AFAAF2D230E3D9D001F3370 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AFAAF41230E3DA2001F3370 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AFAAF4C230E3DA2001F3370 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AFAAF27230E3D9D001F3370 = {
+			isa = PBXGroup;
+			children = (
+				2AFAAF32230E3D9D001F3370 /* ColabTest */,
+				2AFAAF47230E3DA2001F3370 /* ColabTestTests */,
+				2AFAAF52230E3DA2001F3370 /* ColabTestUITests */,
+				2AFAAF31230E3D9D001F3370 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AFAAF31230E3D9D001F3370 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AFAAF30230E3D9D001F3370 /* ColabTest.app */,
+				2AFAAF44230E3DA2001F3370 /* ColabTestTests.xctest */,
+				2AFAAF4F230E3DA2001F3370 /* ColabTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AFAAF32230E3D9D001F3370 /* ColabTest */ = {
+			isa = PBXGroup;
+			children = (
+				2AFAAF33230E3D9D001F3370 /* AppDelegate.swift */,
+				2AFAAF35230E3D9D001F3370 /* ViewController.swift */,
+				2AFAAF37230E3D9D001F3370 /* Main.storyboard */,
+				2AFAAF3A230E3DA1001F3370 /* Assets.xcassets */,
+				2AFAAF3C230E3DA1001F3370 /* LaunchScreen.storyboard */,
+				2AFAAF3F230E3DA1001F3370 /* Info.plist */,
+			);
+			path = ColabTest;
+			sourceTree = "<group>";
+		};
+		2AFAAF47230E3DA2001F3370 /* ColabTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				2AFAAF48230E3DA2001F3370 /* ColabTestTests.swift */,
+				2AFAAF4A230E3DA2001F3370 /* Info.plist */,
+			);
+			path = ColabTestTests;
+			sourceTree = "<group>";
+		};
+		2AFAAF52230E3DA2001F3370 /* ColabTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2AFAAF53230E3DA2001F3370 /* ColabTestUITests.swift */,
+				2AFAAF55230E3DA2001F3370 /* Info.plist */,
+			);
+			path = ColabTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AFAAF2F230E3D9D001F3370 /* ColabTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AFAAF58230E3DA2001F3370 /* Build configuration list for PBXNativeTarget "ColabTest" */;
+			buildPhases = (
+				2AFAAF2C230E3D9D001F3370 /* Sources */,
+				2AFAAF2D230E3D9D001F3370 /* Frameworks */,
+				2AFAAF2E230E3D9D001F3370 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColabTest;
+			productName = ColabTest;
+			productReference = 2AFAAF30230E3D9D001F3370 /* ColabTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2AFAAF43230E3DA2001F3370 /* ColabTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AFAAF5B230E3DA2001F3370 /* Build configuration list for PBXNativeTarget "ColabTestTests" */;
+			buildPhases = (
+				2AFAAF40230E3DA2001F3370 /* Sources */,
+				2AFAAF41230E3DA2001F3370 /* Frameworks */,
+				2AFAAF42230E3DA2001F3370 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AFAAF46230E3DA2001F3370 /* PBXTargetDependency */,
+			);
+			name = ColabTestTests;
+			productName = ColabTestTests;
+			productReference = 2AFAAF44230E3DA2001F3370 /* ColabTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2AFAAF4E230E3DA2001F3370 /* ColabTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AFAAF5E230E3DA2001F3370 /* Build configuration list for PBXNativeTarget "ColabTestUITests" */;
+			buildPhases = (
+				2AFAAF4B230E3DA2001F3370 /* Sources */,
+				2AFAAF4C230E3DA2001F3370 /* Frameworks */,
+				2AFAAF4D230E3DA2001F3370 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AFAAF51230E3DA2001F3370 /* PBXTargetDependency */,
+			);
+			name = ColabTestUITests;
+			productName = ColabTestUITests;
+			productReference = 2AFAAF4F230E3DA2001F3370 /* ColabTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AFAAF28230E3D9D001F3370 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Chase Brown";
+				TargetAttributes = {
+					2AFAAF2F230E3D9D001F3370 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					2AFAAF43230E3DA2001F3370 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 2AFAAF2F230E3D9D001F3370;
+					};
+					2AFAAF4E230E3DA2001F3370 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 2AFAAF2F230E3D9D001F3370;
+					};
+				};
+			};
+			buildConfigurationList = 2AFAAF2B230E3D9D001F3370 /* Build configuration list for PBXProject "ColabTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AFAAF27230E3D9D001F3370;
+			productRefGroup = 2AFAAF31230E3D9D001F3370 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AFAAF2F230E3D9D001F3370 /* ColabTest */,
+				2AFAAF43230E3DA2001F3370 /* ColabTestTests */,
+				2AFAAF4E230E3DA2001F3370 /* ColabTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AFAAF2E230E3D9D001F3370 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AFAAF3E230E3DA1001F3370 /* LaunchScreen.storyboard in Resources */,
+				2AFAAF3B230E3DA1001F3370 /* Assets.xcassets in Resources */,
+				2AFAAF39230E3D9D001F3370 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AFAAF42230E3DA2001F3370 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AFAAF4D230E3DA2001F3370 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AFAAF2C230E3D9D001F3370 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AFAAF36230E3D9D001F3370 /* ViewController.swift in Sources */,
+				2AFAAF34230E3D9D001F3370 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AFAAF40230E3DA2001F3370 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AFAAF49230E3DA2001F3370 /* ColabTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AFAAF4B230E3DA2001F3370 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AFAAF54230E3DA2001F3370 /* ColabTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AFAAF46230E3DA2001F3370 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AFAAF2F230E3D9D001F3370 /* ColabTest */;
+			targetProxy = 2AFAAF45230E3DA2001F3370 /* PBXContainerItemProxy */;
+		};
+		2AFAAF51230E3DA2001F3370 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AFAAF2F230E3D9D001F3370 /* ColabTest */;
+			targetProxy = 2AFAAF50230E3DA2001F3370 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2AFAAF37230E3D9D001F3370 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AFAAF38230E3D9D001F3370 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2AFAAF3C230E3DA1001F3370 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AFAAF3D230E3DA1001F3370 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AFAAF56230E3DA2001F3370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2AFAAF57230E3DA2001F3370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AFAAF59230E3DA2001F3370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KQNNV682BJ;
+				INFOPLIST_FILE = ColabTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NA.ColabTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AFAAF5A230E3DA2001F3370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KQNNV682BJ;
+				INFOPLIST_FILE = ColabTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NA.ColabTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2AFAAF5C230E3DA2001F3370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KQNNV682BJ;
+				INFOPLIST_FILE = ColabTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NA.ColabTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColabTest.app/ColabTest";
+			};
+			name = Debug;
+		};
+		2AFAAF5D230E3DA2001F3370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KQNNV682BJ;
+				INFOPLIST_FILE = ColabTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NA.ColabTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColabTest.app/ColabTest";
+			};
+			name = Release;
+		};
+		2AFAAF5F230E3DA2001F3370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KQNNV682BJ;
+				INFOPLIST_FILE = ColabTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NA.ColabTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ColabTest;
+			};
+			name = Debug;
+		};
+		2AFAAF60230E3DA2001F3370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KQNNV682BJ;
+				INFOPLIST_FILE = ColabTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NA.ColabTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ColabTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AFAAF2B230E3D9D001F3370 /* Build configuration list for PBXProject "ColabTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AFAAF56230E3DA2001F3370 /* Debug */,
+				2AFAAF57230E3DA2001F3370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AFAAF58230E3DA2001F3370 /* Build configuration list for PBXNativeTarget "ColabTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AFAAF59230E3DA2001F3370 /* Debug */,
+				2AFAAF5A230E3DA2001F3370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AFAAF5B230E3DA2001F3370 /* Build configuration list for PBXNativeTarget "ColabTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AFAAF5C230E3DA2001F3370 /* Debug */,
+				2AFAAF5D230E3DA2001F3370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AFAAF5E230E3DA2001F3370 /* Build configuration list for PBXNativeTarget "ColabTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AFAAF5F230E3DA2001F3370 /* Debug */,
+				2AFAAF60230E3DA2001F3370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AFAAF28230E3D9D001F3370 /* Project object */;
+}
